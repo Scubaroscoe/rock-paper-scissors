@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script type="text/javascript" src="./javascript/main.js"></script>
+        <script type="text/javascript" src="./javascript/main.js" defer></script>
     </head>
 
     <body>
         <h1>Rock Paper Scissors</h1>
+        <div id="mainDiv">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+				<div id="resultDiv" style="border:solid; background-color:honeydew">
+					<p id="playerChoice">Player's choice goes here</p>
+					<p id="computerChoice">Computer's choice goes here</p>
+					<p id="result">Result goes here</p>
+					<p id="playerWins">Number of player wins so far:</p>
+                    <p id="computerWins">Number of computer wins so far:</p>
+				</div>
     </body>
 </html>
